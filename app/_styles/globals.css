@@ -16,12 +16,25 @@
   }
 }
 
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
+}
+
+
+.page-width {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .page-width {
+    padding: 0 5rem;
+  }
 }
