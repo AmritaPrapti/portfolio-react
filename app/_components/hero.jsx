@@ -1,8 +1,8 @@
 import { Instagram } from "./icons/instagram"
 import { Linkedin } from "./icons/linkedin"
 import { Facebook } from "./icons/facebook"
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from "next/link"
+import Image from "next/image"
 
 export function Hero() {
   return (
